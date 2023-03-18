@@ -1,23 +1,14 @@
 import P from "prop-types";
 import Base from "../Base";
-import PageNotFound from "../PageNotFound";
 import GridTwoColumn from "../../components/GridTwoColumn";
 import GridContent from "../../components/GridContent";
 import GridSection from "../../components/GridSection";
 import GridImage from "../../components/GridImage";
 import Pricing from "../../components/Pricing";
 import SectionContact from "../../components/SectionContact";
-import { mapData } from "../../api/map-data";
 import Head from "next/head";
 
-const Home = ({ json }) => {
-  if (json.data[0] === undefined) {
-    return <PageNotFound />;
-  }
-
-  const { attributes } = json.data[0];
-  const data = mapData([attributes]);
-
+const Home = ({ data }) => {
   const { menu, sections, footerHtml, slug, title } = data[0];
   const { links, text, link, image } = menu;
 
