@@ -1,11 +1,11 @@
 import MenuLink from '.';
 
-const MenuLinkStories =  {
+const MenuLinkStories = {
   title: 'MenuLink',
   component: MenuLink,
   args: {
     children: 'MenuLink',
-    link: "https://www.google.com.br"
+    link: 'https://www.google.com.br',
   },
   argTypes: {
     children: { type: 'string' },
@@ -14,7 +14,7 @@ const MenuLinkStories =  {
 
 export const Template = (args) => {
   return (
-    <div style={{display: "flex"}}>
+    <div style={{ display: 'flex' }}>
       <MenuLink {...args} />
     </div>
   );

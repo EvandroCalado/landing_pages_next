@@ -41,7 +41,7 @@ GridSection.propTypes = {
     P.shape({
       title: P.string,
       description: P.string,
-    })
+    }),
   ).isRequired,
   sectionId: P.string,
 };

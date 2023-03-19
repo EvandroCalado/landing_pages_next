@@ -1,12 +1,12 @@
-import Table from ".";
+import Table from '.';
 
-import dataSections from "../../api/data.json";
+import dataSections from '../../api/data.json';
 const section = dataSections[0].sections[5].table;
 
 const TableStories = {
-  title: "Table",
+  title: 'Table',
   component: Table,
-  args:  [section] ,
+  args: [section],
 };
 
 export const Template = (args) => {

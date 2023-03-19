@@ -13,18 +13,18 @@ const logoData = {
 describe('<Menu />', () => {
   it('should render logo and Main menu', () => {
     const { container } = renderTheme(
-      <Menu links={mock} logoData={logoData} />
+      <Menu links={mock} logoData={logoData} />,
     );
     expect(screen.getByRole('heading', { name: 'logo' })).toBeInTheDocument();
     expect(
-      screen.getByRole('navigation', { name: 'Main menu' })
+      screen.getByRole('navigation', { name: 'Main menu' }),
     ).toBeInTheDocument();
     expect(container).toMatchSnapshot();
   });
 
   it('should render menu mobile and button', () => {
     const { container } = renderTheme(
-      <Menu links={mock} logoData={logoData} />
+      <Menu links={mock} logoData={logoData} />,
     );
     const button = screen.getByLabelText('Open/Close menu');
     const menuContainer = button.nextSibling;
@@ -54,7 +54,7 @@ describe('<Menu />', () => {
   it('should not render links', () => {
     const { container } = renderTheme(<Menu logoData={logoData} />);
     expect(
-      screen.queryByRole('navigation', { name: 'Main menu' }).firstChild
+      screen.queryByRole('navigation', { name: 'Main menu' }).firstChild,
     ).not.toBeInTheDocument();
     expect(container).toMatchSnapshot();
   });

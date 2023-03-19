@@ -11,7 +11,7 @@ describe('<GridContent />', () => {
 
   it('should render background', () => {
     const { container } = renderTheme(
-      <GridContent {...args} background={undefined} />
+      <GridContent {...args} background={undefined} />,
     );
     expect(container).toMatchSnapshot();
   });

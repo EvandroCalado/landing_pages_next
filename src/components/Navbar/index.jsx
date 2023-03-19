@@ -4,7 +4,7 @@ import MenuLink from '../MenuLink';
 
 const Navbar = ({ links = [] }) => {
   return (
-    <Styled.Container aria-label='Main menu'>
+    <Styled.Container aria-label="Main menu">
       {links.map((link) => (
         <MenuLink key={link.link} {...link} />
       ))}
@@ -18,7 +18,7 @@ Navbar.propTypes = {
       children: P.string.isRequired,
       link: P.string.isRequired,
       newTab: P.bool,
-    })
+    }),
   ),
 };
 

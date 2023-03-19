@@ -8,7 +8,7 @@ describe('<GoTop />', () => {
     expect(screen.getByRole('link', { name: 'Go to top' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Go to top' })).toHaveAttribute(
       'href',
-      '#'
+      '#',
     );
     expect(container).toMatchSnapshot();
   });

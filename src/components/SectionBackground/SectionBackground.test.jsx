@@ -7,7 +7,7 @@ describe('<SectionBackground />', () => {
     const { container } = renderTheme(
       <SectionBackground background>
         <h1>Children</h1>
-      </SectionBackground>
+      </SectionBackground>,
     );
     expect(screen.getByRole('heading')).toBeInTheDocument();
     expect(container).toMatchSnapshot();
@@ -17,7 +17,7 @@ describe('<SectionBackground />', () => {
     const { container } = renderTheme(
       <SectionBackground>
         <h1>Children</h1>
-      </SectionBackground>
+      </SectionBackground>,
     );
     expect(screen.getByRole('heading')).toBeInTheDocument();
     expect(container).toMatchSnapshot();

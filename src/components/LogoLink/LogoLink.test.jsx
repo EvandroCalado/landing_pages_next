@@ -8,7 +8,7 @@ describe('<LogoLink />', () => {
     expect(screen.getByRole('link', { name: 'Olá mundo' })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Olá mundo' })).toHaveAttribute(
       'href',
-      '#target'
+      '#target',
     );
   });
 
@@ -16,7 +16,7 @@ describe('<LogoLink />', () => {
     renderTheme(<LogoLink link="#target" text="Olá mundo" image="image.jpg" />);
     expect(screen.getByRole('img', { name: 'Olá mundo' })).toHaveAttribute(
       'src',
-      'image.jpg'
+      'image.jpg',
     );
   });
 

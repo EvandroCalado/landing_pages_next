@@ -1,6 +1,6 @@
 import Menu from '.';
 
-import {mock} from "../Navbar/mock"
+import { mock } from '../Navbar/mock';
 
 const MenuStories = {
   title: 'Menu',
@@ -8,10 +8,10 @@ const MenuStories = {
   args: {
     links: mock,
     logoData: {
-      text: "Logo",
-      link:  "#target",
-      image: "",
-    }
+      text: 'Logo',
+      link: '#target',
+      image: '',
+    },
   },
 };
 
@@ -23,4 +23,4 @@ export const Template = (args) => {
   );
 };
 
-export default MenuStories
+export default MenuStories;

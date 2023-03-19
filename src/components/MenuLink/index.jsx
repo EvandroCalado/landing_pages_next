@@ -1,10 +1,10 @@
-import Link from "next/link";
-import P from "prop-types";
-import * as Styled from "./styles";
+import Link from 'next/link';
+import P from 'prop-types';
+import * as Styled from './styles';
 
 const MenuLink = ({ children, link, newTab = false }) => {
   const isExternLink = link.match(/^\//) ? true : false;
-  const target = newTab ? "_blank" : "_self";
+  const target = newTab ? '_blank' : '_self';
 
   if (isExternLink) {
     return (

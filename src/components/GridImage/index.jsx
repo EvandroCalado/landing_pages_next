@@ -39,7 +39,7 @@ GridImage.propTypes = {
     P.shape({
       image: P.string.isRequired,
       altText: P.string.isRequired,
-    })
+    }),
   ).isRequired,
 };
 

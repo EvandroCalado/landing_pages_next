@@ -7,7 +7,7 @@ describe('<SectionContainer />', () => {
     const { container } = renderTheme(
       <SectionContainer>
         <h1>Children</h1>
-      </SectionContainer>
+      </SectionContainer>,
     );
     expect(screen.getByRole('heading')).toBeInTheDocument();
     expect(container).toMatchSnapshot();

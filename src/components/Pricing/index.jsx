@@ -38,7 +38,7 @@ Pricing.propTypes = {
       head: P.string.isRequired,
       body: P.string.isRequired,
       footer: P.string.isRequired,
-    })
+    }),
   ),
 };
 

@@ -47,7 +47,7 @@ describe('map-menu', () => {
     expect(menu.newTab).toBe(false);
     expect(menu.text).toBe('Logo');
     expect(menu.image).toBe(
-      'https://res.cloudinary.com/dnhsdenji/image/upload/v1677522486/landing_page_2_c6baa21725_63f30d4f80.svg'
+      'https://res.cloudinary.com/dnhsdenji/image/upload/v1677522486/landing_page_2_c6baa21725_63f30d4f80.svg',
     );
     expect(menu.link).toBe('#home');
     expect(menu.links[0].newTab).toBe(false);

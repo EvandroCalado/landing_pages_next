@@ -1,9 +1,9 @@
-import P from "prop-types";
-import * as Styled from "./styles";
-import Heading from "../Heading";
-import Link from "next/link";
+import P from 'prop-types';
+import * as Styled from './styles';
+import Heading from '../Heading';
+import Link from 'next/link';
 
-const LogoLink = ({ text, image = "", link }) => {
+const LogoLink = ({ text, image = '', link }) => {
   const isExternLink = link.match(/^\//) ? true : false;
 
   if (isExternLink) {

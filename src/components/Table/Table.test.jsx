@@ -7,9 +7,9 @@ const section = dataSections[0].sections[5].table;
 
 describe('<Table />', () => {
   it('should render table', () => {
-    const {container} = renderTheme(<Table table={section} />);
+    const { container } = renderTheme(<Table table={section} />);
     expect(screen.getByRole('table')).toBeInTheDocument();
-    expect(container).toMatchSnapshot()
+    expect(container).toMatchSnapshot();
   });
 
   it('should render table without data', () => {

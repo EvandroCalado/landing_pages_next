@@ -50,7 +50,7 @@ Table.propTypes = {
         body: P.string.isRequired,
         footer: P.string.isRequired,
       },
-    ])
+    ]),
   ),
 };
 

@@ -36,7 +36,7 @@ describe('<Heading />', () => {
     rerender(
       <ThemeProvider theme={theme}>
         <Heading size="big">texto</Heading>
-      </ThemeProvider>
+      </ThemeProvider>,
     );
 
     expect(screen.getByRole('heading', { name: 'texto' })).toHaveStyle({
@@ -46,7 +46,7 @@ describe('<Heading />', () => {
     rerender(
       <ThemeProvider theme={theme}>
         <Heading size="medium">texto</Heading>
-      </ThemeProvider>
+      </ThemeProvider>,
     );
 
     expect(screen.getByRole('heading', { name: 'texto' })).toHaveStyle({
@@ -56,7 +56,7 @@ describe('<Heading />', () => {
     rerender(
       <ThemeProvider theme={theme}>
         <Heading size="huge">texto</Heading>
-      </ThemeProvider>
+      </ThemeProvider>,
     );
 
     expect(screen.getByRole('heading', { name: 'texto' })).toHaveStyle({
@@ -83,15 +83,15 @@ describe('<Heading />', () => {
   });
 
   it('should render correct heading element', () => {
-    const {container} = renderTheme(<Heading as="h6">texto</Heading>);
+    const { container } = renderTheme(<Heading as="h6">texto</Heading>);
     const heading = screen.getByRole('heading', { name: 'texto' });
-    const h6 = container.querySelector('h6')
+    const h6 = container.querySelector('h6');
 
-    expect(h6.tagName.toLowerCase()).toBe('h6')
+    expect(h6.tagName.toLowerCase()).toBe('h6');
   });
 
   it('should match snapshot', () => {
-    const {container} = renderTheme(<Heading as="h6">texto</Heading>);
+    const { container } = renderTheme(<Heading as="h6">texto</Heading>);
     expect(container).toMatchSnapshot();
   });
 });

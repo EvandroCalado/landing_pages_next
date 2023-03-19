@@ -1,4 +1,4 @@
-import PageNotFound from "../templates/PageNotFound";
+import PageNotFound from '../templates/PageNotFound';
 
 const Page404 = () => {
   return <PageNotFound />;

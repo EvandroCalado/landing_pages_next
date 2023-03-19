@@ -10,7 +10,9 @@ describe('<GridSection />', () => {
   });
 
   it('should render without background', () => {
-    const { container } = renderTheme(<GridSection {...args} background={undefined} />);
+    const { container } = renderTheme(
+      <GridSection {...args} background={undefined} />,
+    );
     expect(container).toMatchSnapshot();
   });
 });

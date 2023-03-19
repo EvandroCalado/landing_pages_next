@@ -7,7 +7,7 @@ describe('<MenuLink />', () => {
     renderTheme(<MenuLink link="https://www.google.com.br">Children</MenuLink>);
     expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute(
       'target',
-      '_self'
+      '_self',
     );
   });
 
@@ -15,11 +15,11 @@ describe('<MenuLink />', () => {
     renderTheme(
       <MenuLink link="https://www.google.com.br" newTab={true}>
         Children
-      </MenuLink>
+      </MenuLink>,
     );
     expect(screen.getByRole('link', { name: 'Children' })).toHaveAttribute(
       'target',
-      '_blank'
+      '_blank',
     );
   });
 
@@ -27,7 +27,7 @@ describe('<MenuLink />', () => {
     renderTheme(
       <MenuLink link="https://www.google.com.br" newTab={false}>
         Children
-      </MenuLink>
+      </MenuLink>,
     );
     expect(screen.getByRole('link', { name: 'Children' })).toMatchSnapshot();
   });

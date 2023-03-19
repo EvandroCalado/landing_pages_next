@@ -1,12 +1,12 @@
-import P from "prop-types";
-import Base from "../Base";
-import GridTwoColumn from "../../components/GridTwoColumn";
-import GridContent from "../../components/GridContent";
-import GridSection from "../../components/GridSection";
-import GridImage from "../../components/GridImage";
-import Pricing from "../../components/Pricing";
-import SectionContact from "../../components/SectionContact";
-import Head from "next/head";
+import P from 'prop-types';
+import Base from '../Base';
+import GridTwoColumn from '../../components/GridTwoColumn';
+import GridContent from '../../components/GridContent';
+import GridSection from '../../components/GridSection';
+import GridImage from '../../components/GridImage';
+import Pricing from '../../components/Pricing';
+import SectionContact from '../../components/SectionContact';
+import Head from 'next/head';
 
 const Home = ({ data }) => {
   const { menu, sections, footerHtml, slug, title } = data[0];
@@ -29,27 +29,27 @@ const Home = ({ data }) => {
           const { component } = section;
           const key = `${slug}-${index}`;
 
-          if (component === "section.section-two-columns") {
+          if (component === 'section.section-two-columns') {
             return <GridTwoColumn key={key} {...section} />;
           }
 
-          if (component === "section.section-content") {
+          if (component === 'section.section-content') {
             return <GridContent key={key} {...section} />;
           }
 
-          if (component === "section.section-grid-text") {
+          if (component === 'section.section-grid-text') {
             return <GridSection key={key} {...section} />;
           }
 
-          if (component === "section.section-grid-image") {
+          if (component === 'section.section-grid-image') {
             return <GridImage key={key} {...section} />;
           }
 
-          if (component === "section.section-pricing") {
+          if (component === 'section.section-pricing') {
             return <Pricing key={key} {...section} />;
           }
 
-          if (component === "section.section-contact") {
+          if (component === 'section.section-contact') {
             return <SectionContact key={key} {...section} />;
           }
 

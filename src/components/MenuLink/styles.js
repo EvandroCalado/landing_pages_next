@@ -9,7 +9,7 @@ export const Container = styled.a`
     position: relative;
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       bottom: 0.75rem;
       left: 50%;

@@ -23,7 +23,7 @@ describe('<Navbar />', () => {
       'column wrap',
       {
         media: theme.media.medium,
-      }
+      },
     );
   });
 
