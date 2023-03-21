@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render.theme';
 import { theme } from '../../styles/theme';
 
-import { mock } from './mock';
+import mock from './mock';
 
 describe('<Navbar />', () => {
   it('should render links', () => {
