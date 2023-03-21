@@ -1,16 +1,12 @@
 import { GetStaticProps } from 'next';
 import { mapData } from '../api/map-data';
-import Home from '../templates/Home';
+import Home, { HomeProps } from '../templates/Home';
 
-interface IndexProps {
-  data: [];
-}
-
-export default function Index({ data = null }: IndexProps) {
+export default function Index({ data = null }: HomeProps) {
   return <Home data={data} />;
 }
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const url =
     'https://strapi-lading-pages.onrender.com/api/pages?populate=deep';
   const slug = 'landing-page';
