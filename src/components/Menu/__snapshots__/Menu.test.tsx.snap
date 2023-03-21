@@ -209,6 +209,7 @@ exports[`<Menu /> should not render links 1`] = `
           <a
             class="c8"
             href="#target"
+            target="_self"
           >
             logo
           </a>
@@ -432,6 +433,7 @@ exports[`<Menu /> should render logo and Main menu 1`] = `
           <a
             class="c8"
             href="#target"
+            target="_self"
           >
             logo
           </a>
