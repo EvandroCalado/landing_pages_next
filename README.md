@@ -24,7 +24,7 @@
 
   ⭐ Bem-vindo à minha landing page, criada com as tecnologias mais modernas e eficientes do mercado! Aqui, utilizei Next.js, Styled Components, Storybook, Jest e Husky para oferecer a você a melhor experiência possível.
 
-Com o Next.js, consegui criar uma aplicação web de alta performance, utilizando React como base. Isso garante que a página seja rápida e responsiva, com um tempo de carregamento mínimo, mesmo em conexões mais lentas.
+Com o Next.js, consegui criar uma aplicação web de alta performance com SSR, utilizando React como base. Isso garante que a página seja rápida e responsiva, com um tempo de carregamento mínimo, mesmo em conexões mais lentas.
 
 Já os Styled Components me permitiu criar estilos de maneira eficiente e escalável, garantindo um código mais limpo e fácil de manter. Além disso, os componentes são totalmente customizáveis e reutilizáveis, permitindo criar recursos de maneira mais ágil.
 
