@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/110628201/227030332-792c9947-9011-4631-8bef-019a838eafbd.png" alt="Logo" width="300" height="200" />
-</p>
-
-<h1 align="center"> ⭐ Landing Page </h1>
+<h1 align="center"> 🖥️ Landing Page </h1>
 <h3 align="center"><a href="https://landing-pages-next.vercel.app" target="_blank" > 🚀 Click aqui para acessar </a></h3>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
