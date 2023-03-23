@@ -18,17 +18,21 @@
 
 <br />
 
-  ⭐ Bem-vindo à minha landing page, criada com as tecnologias mais modernas e eficientes do mercado! Aqui, utilizei Next.js, Styled Components, Storybook, Jest e Husky para oferecer a você a melhor experiência possível.
+  ⭐ Olá!
 
-Com o Next.js, consegui criar uma aplicação web de alta performance com SSR, utilizando React como base. Isso garante que a página seja rápida e responsiva, com um tempo de carregamento mínimo, mesmo em conexões mais lentas.
+Estou muito animado em compartilhar com você a nossa nova landing page criada com as tecnologias mais modernas do mercado! Como desenvolvedor, eu escolhi usar Next.js, Typescript, Styled Components, Storybook, Jest e Husky para criar uma página única e incrível para você.
 
-Já os Styled Components me permitiu criar estilos de maneira eficiente e escalável, garantindo um código mais limpo e fácil de manter. Além disso, os componentes são totalmente customizáveis e reutilizáveis, permitindo criar recursos de maneira mais ágil.
+Com o Next.js, consegui criar uma página rápida e dinâmica, com uma experiência de usuário mais fluida. Além disso, o Typescript nos permitiu escrever um código mais seguro e escalável, garantindo a integridade da página. Usando o Styled Components, pude criar um design moderno e personalizado, com um código mais fácil de gerenciar e modificar.
 
-Para garantir a qualidade do código, utilizei o Storybook, que me permitiu testar os componentes de maneira isolada e independente do resto da aplicação. Isso garante que cada componente esteja funcionando corretamente antes mesmo de ser integrado à página.
+Eu também usei o Jest para testes automatizados, garantindo que a página seja entregue sem erros e bugs, e o Storybook para visualizar os componentes de forma isolada e garantir que cada parte da página funcione perfeitamente.
 
-E para garantir a segurança e a estabilidade do código, utilizei o Jest e o Husky. O Jest me permitiu criar testes automatizados para garantir que o código esteja funcionando corretamente em todas as situações possíveis, enquanto o Husky garantiu que nenhum código quebrado seja enviado para produção.
+Para manter o nosso código organizado e limpo, utilizei o Husky para garantir que todos os nossos commits atendam aos padrões definidos e que o código seja sempre entregue com a melhor qualidade possível.
 
-Com todas essas tecnologias, consegui criar uma landing page incrível, que oferece a melhor experiência possível para os nossos usuários. Estou sempre trabalhando para melhorar ainda mais a página e adotando novas tecnologias conforme elas surgem no mercado. Obrigado por visitar a nossa landing page!
+Espero que você goste da nossa landing page tanto quanto eu gostei de criá-la! Eu trabalhei duro para trazer a melhor experiência possível para você, então sinta-se à vontade para explorar e experimentar essas tecnologias incríveis.
+
+Atenciosamente,
+
+Evandro Calado - Desenvolvedor frotend.
 
 <br/>
 
