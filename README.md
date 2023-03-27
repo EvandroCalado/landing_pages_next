@@ -164,7 +164,7 @@ Evandro Calado - Desenvolvedor frotend.
 
 <div > 
 
-| [<img src="https://avatars.githubusercontent.com/u/110628201?v=4" width=300><br><sub> Evandro Calado </sub>](https://www.linkedin.com/in/evandro-calado/) | ***Hello 😃 Se você chegou até aqui, acredito que gostou do meu projeto, nesse caso temos algo em comum, sendo assim que tal conversamos um pouco? Meu chama no linkedin 😁*** | 
+| [<img src="https://user-images.githubusercontent.com/110628201/227955313-b9f72ab7-24b3-41a1-ab4e-3969a6a73d42.png" width=300><br><sub> Evandro Calado </sub>](https://www.linkedin.com/in/evandro-calado/) | ***Hello 😃 Se você chegou até aqui, acredito que gostou do meu projeto, nesse caso temos algo em comum, sendo assim que tal conversamos um pouco? Meu chama no linkedin 😁*** | 
 |---|---|
 
 
